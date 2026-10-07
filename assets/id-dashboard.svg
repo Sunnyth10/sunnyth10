@@ -46,4 +46,4 @@
  <circle cy="20" r="18" fill="#cbd3df" stroke="#7c8798" stroke-width="3"/>
 </g>
 <g transform="translate(54 680)"><text class="mono small" fill="#a7b0c2">VERIFIED SNAPSHOT · 06 OCT 2026 · no unknown counts shown</text></g>
-</svg>
+<g transform="translate(810 28)" aria-label="Sunnyth signature mark"><path d="M0 20 10 0h13L13 20Z" fill="#ff4f68"/><path d="M20 20 30 0h13L33 20Z" fill="#ef385d"/><path d="M40 20 50 0h13L53 20Z" fill="#b82850"/><path d="M0 26h54" stroke="#ff4f68" stroke-width="2" opacity=".55"/></g></svg>

@@ -1,1 +1,236 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sunnyth GitHub README Preview</title><style>body{margin:0;background:#02040a;color:#eef2f8;font-family:Arial,sans-serif}main{max-width:1200px;margin:auto;padding:28px}section{margin:22px 0}img{display:block;width:100%;height:auto;border-radius:18px;background:#070b16}a{color:#7db0ff}.note{padding:14px 18px;border:1px solid #1b2a44;border-radius:14px;background:#070b16;color:#a7b0c2}</style></head><body><main><h1>Sunnyth10 — README Preview</h1><p class="note">All five SVGs are self-contained. The preview uses ordinary <code>&lt;img&gt;</code> elements to match README rendering.</p><section><img src="assets/hero.svg?v=1" alt="hero"></section><section><img src="assets/about-life.svg?v=1" alt="about-life"></section><section><img src="assets/stack.svg?v=3" alt="stack"></section><section><img src="assets/id-dashboard.svg?v=2" alt="id-dashboard"></section><section><img src="assets/connect.svg?v=4" alt="connect"></section><h2>Social links</h2><p><a href="https://github.com/Sunnyth10">GitHub</a> · <a href="https://linkedin.com/sunnyth-m">LinkedIn</a> · <a href="https://www.instagram.com/sunny_fr_10/">Instagram</a> · <a href="mailto:sunnyboi0010@gmail.com">Email</a></p></main></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sunnyth GitHub README Preview</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --page: #080d14;
+        --panel: #0b1424;
+        --panel-soft: #0c182b;
+        --line: #1b3557;
+        --line-bright: #27629b;
+        --text: #edf4ff;
+        --muted: #8ca0bb;
+        --blue: #32a7ff;
+        --red: #ff4f68;
+        --red-soft: #b82850;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-width: 320px;
+        margin: 0;
+        color: var(--text);
+        background:
+          radial-gradient(circle at 50% -10%, rgba(21, 72, 132, .25), transparent 38rem),
+          radial-gradient(circle at 92% 38%, rgba(192, 38, 69, .13), transparent 28rem),
+          linear-gradient(90deg, rgba(255, 255, 255, .035) 1px, transparent 1px) 0 0 / 42px 42px,
+          linear-gradient(rgba(255, 255, 255, .035) 1px, transparent 1px) 0 0 / 42px 42px,
+          var(--page);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      body::before {
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+        pointer-events: none;
+        content: "";
+        background-image: radial-gradient(rgba(116, 169, 230, .18) .7px, transparent .7px);
+        background-size: 8px 8px;
+        mask-image: linear-gradient(to bottom, black, transparent 85%);
+        opacity: .32;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 24px 28px 14px;
+        color: var(--muted);
+        font: 11px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+        letter-spacing: .12em;
+        text-transform: uppercase;
+      }
+
+      .status {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+      }
+
+      .status::before {
+        width: 7px;
+        height: 7px;
+        content: "";
+        border-radius: 50%;
+        background: var(--red);
+        box-shadow: 0 0 14px var(--red);
+      }
+
+      main {
+        width: min(100% - 32px, 1180px);
+        margin: 0 auto 64px;
+        padding: 20px 0 28px;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(1.35rem, 3vw, 2rem);
+        letter-spacing: -.04em;
+      }
+
+      .intro {
+        max-width: 620px;
+        margin: 0 0 28px;
+        color: var(--muted);
+        font-size: .92rem;
+        line-height: 1.6;
+      }
+
+      .preview-frame {
+        padding: 12px;
+        border: 1px solid rgba(72, 125, 187, .36);
+        border-radius: 22px;
+        background: rgba(4, 11, 21, .72);
+        box-shadow: 0 28px 80px rgba(0, 0, 0, .35), 0 0 80px rgba(22, 101, 179, .08);
+      }
+
+      section {
+        position: relative;
+        margin: 0 0 12px;
+        padding: 8px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        background:
+          radial-gradient(circle at 70% 15%, rgba(21, 83, 153, .2), transparent 30%),
+          radial-gradient(circle at 96% 90%, rgba(192, 38, 69, .15), transparent 27%),
+          radial-gradient(rgba(116, 169, 230, .16) .7px, transparent .7px) 0 0 / 8px 8px,
+          linear-gradient(145deg, var(--panel-soft), var(--panel));
+        box-shadow: inset 0 1px rgba(255, 255, 255, .035);
+      }
+
+      section::after {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        content: "";
+        border-radius: inherit;
+        box-shadow: inset 0 0 42px rgba(0, 0, 0, .2);
+      }
+
+      section:last-of-type {
+        margin-bottom: 0;
+      }
+
+      img {
+        position: relative;
+        z-index: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        background: #070b16;
+      }
+
+      .note {
+        display: inline-flex;
+        gap: 10px;
+        align-items: center;
+        margin: 0 0 18px;
+        padding: 9px 12px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: #b8c9df;
+        background: rgba(11, 25, 44, .75);
+        font: 11px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace;
+      }
+
+      .note::before {
+        content: "↗";
+        color: var(--red);
+        font-size: 14px;
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 18px;
+        margin: 22px 4px 0;
+        color: var(--muted);
+        font: 12px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+      }
+
+      a {
+        color: #6dc3ff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #ff9baa;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+
+      @media (max-width: 620px) {
+        .topbar {
+          padding: 18px 18px 8px;
+        }
+
+        main {
+          width: min(100% - 20px, 1180px);
+          padding-top: 14px;
+        }
+
+        .preview-frame {
+          padding: 7px;
+          border-radius: 16px;
+        }
+
+        section {
+          padding: 4px;
+          border-radius: 12px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          scroll-behavior: auto !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <span>README / VISUAL SYSTEM</span>
+      <span class="status">LOCAL PREVIEW</span>
+    </header>
+    <main>
+      <h1>Sunnyth10 — README Preview</h1>
+      <p class="intro">A framed local preview for the profile README. The surrounding interface and signature mark are experimental; the core slide artwork remains intact.</p>
+      <p class="note">Five self-contained SVG slides · ordinary image rendering</p>
+      <div class="preview-frame">
+        <section><img src="assets/hero.svg?v=1" alt="hero"></section>
+        <section><img src="assets/about-life.svg?v=1" alt="about-life"></section>
+        <section><img src="assets/stack.svg?v=3" alt="stack"></section>
+        <section><img src="assets/id-dashboard.svg?v=2" alt="id-dashboard"></section>
+        <section><img src="assets/connect.svg?v=4" alt="connect"></section>
+      </div>
+      <nav class="links" aria-label="Social links">
+        <a href="https://github.com/Sunnyth10">GitHub</a>
+        <a href="https://linkedin.com/sunnyth-m">LinkedIn</a>
+        <a href="https://www.instagram.com/sunny_fr_10/">Instagram</a>
+        <a href="mailto:sunnyboi0010@gmail.com">Email</a>
+      </nav>
+    </main>
+  </body>
+</html>
