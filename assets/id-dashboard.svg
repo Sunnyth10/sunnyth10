@@ -20,7 +20,7 @@
 @media (prefers-reduced-motion:reduce){.enter,.fade{animation:none!important}animate,animateTransform,animateMotion{display:none!important}}
 </style>
 <rect width="900" height="760" rx="28" class="bg"/><rect width="900" height="760" fill="url(#sunny-id-dots)"/>
-<text x="54" y="62" class="mono label" fill="#a7b0c2">04 / ID DASHBOARD</text>
+<text x="54" y="62" class="mono label" fill="#a7b0c2">03 / ID DASHBOARD</text>
 <g transform="translate(450 90)">
  <path d="M-115 0v-44c0-38 230-38 230 0v44" fill="none" stroke="#247bff" stroke-width="14" stroke-linecap="round" opacity=".7"/>
  <path d="M-94 0v-34c0-26 188-26 188 0v34" fill="none" stroke="#ff354f" stroke-width="3" opacity=".55"/>

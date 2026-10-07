@@ -14,11 +14,7 @@ AI/ML engineering student and full-stack developer building intelligent, real-wo
 
 ![Stack](assets/stack.svg?v=1)
 
-![Selected projects](assets/projects.svg?v=5)
-
-**Project repositories:** [01 · DoratriX](https://github.com/Sunnyth10/DoratriX) · [02 · LeakLock](https://github.com/Sunnyth10/leaklock) · [03 · Currency Converter](https://github.com/Sunnyth10/currency-converter)
-
-![ID dashboard](assets/id-dashboard.svg?v=1)
+![ID dashboard](assets/id-dashboard.svg?v=2)
 
 ![Connect](assets/connect.svg?v=3)
 
