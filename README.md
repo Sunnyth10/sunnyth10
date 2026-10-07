@@ -1,13 +1,3 @@
-<div align="center">
-
-# Sunnyth / Sunnyth10
-
-**Full Stack Developer · AI/ML Engineer · Student · Builder**
-
-AI/ML engineering student and full-stack developer building intelligent, real-world products where AI meets modern software engineering.
-
-</div>
-
 ![Hero](assets/hero.svg?v=1)
 
 ![About + life](assets/about-life.svg?v=1)
