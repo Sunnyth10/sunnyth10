@@ -9,7 +9,7 @@ Snapshot date: **06 Oct 2026**.
 - Live SVGs use CSS entrances with `animation-fill-mode: both` and include `prefers-reduced-motion: reduce` handling.
 - SMIL timelines are authored from `0s`; the ID pendulum uses a 0s-start additive motion layer so the drop/settle and gentle swing can coexist.
 - All `<image>` hrefs are `data:` URIs; no external image/font/network request is referenced by the SVGs.
-- The supplied `id.png` and `right_pointing.png` bytes were embedded unchanged; their SHA-256 hashes were checked against the uploaded originals.
+- At the original build, the supplied `id.png` and `right_pointing.png` bytes were embedded unchanged; their SHA-256 hashes were checked against the uploaded originals.
 - Inter Display Bold and Noto Sans Mono are embedded as base64 WOFF2 payloads in every live SVG.
 - Five relative README image references are present with cache-busting suffixes.
 - The supplied tracking/query-string suffixes were removed from the project/social links.
@@ -39,6 +39,8 @@ Optional convenience file:
 The WOFF2 files are already embedded inside the SVGs, so the separate `fonts/*.woff2` files are **not required** for GitHub rendering.
 
 ## Latest revision
+
+- The embedded portraits in `hero.svg`, `id-dashboard.svg`, and `connect.svg` were converted from PNG to alpha-capable WebP (quality 85). The encoded image payloads went from 2,402,597 to 288,142 bytes for the hero/dashboard portrait, and from 1,911,985 to 196,176 bytes for Connect. README cache versions were bumped for those three assets.
 
 - The hero now cycles through four roles: Product Builder, Full Stack Developer, AI/ML Engineer, and Student.
 - Reduced motion disables both CSS entrances and SMIL animations.

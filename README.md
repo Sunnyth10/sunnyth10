@@ -1,12 +1,12 @@
-![Hero](assets/hero.svg?v=1)
+![Hero](assets/hero.svg?v=2)
 
 ![About + life](assets/about-life.svg?v=1)
 
 ![Stack](assets/stack.svg?v=1)
 
-![ID dashboard](assets/id-dashboard.svg?v=2)
+![ID dashboard](assets/id-dashboard.svg?v=3)
 
-![Connect](assets/connect.svg?v=3)
+![Connect](assets/connect.svg?v=4)
 
 ## Selected projects
 
